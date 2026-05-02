@@ -27,4 +27,4 @@ def add_fleur(magasin: str, fleur: Fleur):
     return {"status": "success"}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=89236)
+    uvicorn.run(app, host="0.0.0.0", port=8923)
